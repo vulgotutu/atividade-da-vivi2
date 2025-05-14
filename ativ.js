@@ -4,9 +4,9 @@ function mostrarFavoritos() {
     const jogo = document.querySelector("#jogo").value
   
     const resultado = `
-    Seu filme favorirto é  ${filme }
-    Seu musica favorito é  ${ musica }
-    Seu jogo favorito   é  ${ jogo } 
+    Seu filme favorirto é  ${filme}
+    Sua musica favorito é  ${ musica}
+    Seu jogo favorito   é  ${ jogo} 
     `
   
     document.querySelector("#resultado").innerHTML = resultado
